@@ -1,0 +1,6 @@
+framework module Pods_Cabrenee {
+  umbrella header "Pods-Cabrenee-umbrella.h"
+
+  export *
+  module * { export * }
+}

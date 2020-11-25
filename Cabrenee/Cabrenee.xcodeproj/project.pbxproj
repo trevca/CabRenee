@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E0D1AE192E1980890F75911 /* Pods_Cabrenee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DED91C6E925C642DABEE900 /* Pods_Cabrenee.framework */; };
+		9E91B2F5D42FC163018F072F /* Pods_CabreneeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7783DB3ED9F0BC702D3C456 /* Pods_CabreneeTests.framework */; };
+		B7D700F16E1B1A5F887839F7 /* Pods_Cabrenee_CabreneeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07DFEC21A5F3A604C08FD6FC /* Pods_Cabrenee_CabreneeUITests.framework */; };
+		F23799D2256DCBFF0083B109 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23799D1256DCBFF0083B109 /* AppDelegate.swift */; };
+		F23799D4256DCBFF0083B109 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23799D3256DCBFF0083B109 /* SceneDelegate.swift */; };
+		F23799D6256DCBFF0083B109 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23799D5256DCBFF0083B109 /* ViewController.swift */; };
+		F23799D9256DCBFF0083B109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23799D7256DCBFF0083B109 /* Main.storyboard */; };
+		F23799DB256DCC020083B109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23799DA256DCC020083B109 /* Assets.xcassets */; };
+		F23799DE256DCC020083B109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23799DC256DCC020083B109 /* LaunchScreen.storyboard */; };
+		F23799E9256DCC020083B109 /* CabreneeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23799E8256DCC020083B109 /* CabreneeTests.swift */; };
+		F23799F4256DCC020083B109 /* CabreneeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23799F3256DCC020083B109 /* CabreneeUITests.swift */; };
+		F2379A05256DD3D50083B109 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2379A04256DD3D50083B109 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23799E5256DCC020083B109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23799C6256DCBFF0083B109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23799CD256DCBFF0083B109;
+			remoteInfo = Cabrenee;
+		};
+		F23799F0256DCC020083B109 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23799C6256DCBFF0083B109 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23799CD256DCBFF0083B109;
+			remoteInfo = Cabrenee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DFEC21A5F3A604C08FD6FC /* Pods_Cabrenee_CabreneeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabrenee_CabreneeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F27C646E8AC8F14876F264 /* Pods-Cabrenee-CabreneeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabrenee-CabreneeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cabrenee-CabreneeUITests/Pods-Cabrenee-CabreneeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40B60DA42D5A72EC04BF8558 /* Pods-CabreneeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabreneeTests.release.xcconfig"; path = "Target Support Files/Pods-CabreneeTests/Pods-CabreneeTests.release.xcconfig"; sourceTree = "<group>"; };
+		49932A9F00EBEF8299BCB89E /* Pods-CabreneeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CabreneeTests.debug.xcconfig"; path = "Target Support Files/Pods-CabreneeTests/Pods-CabreneeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DED91C6E925C642DABEE900 /* Pods_Cabrenee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cabrenee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6163D0DD581148F522D8F1A9 /* Pods-Cabrenee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabrenee.release.xcconfig"; path = "Target Support Files/Pods-Cabrenee/Pods-Cabrenee.release.xcconfig"; sourceTree = "<group>"; };
+		D7783DB3ED9F0BC702D3C456 /* Pods_CabreneeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CabreneeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE11D39DD66A70281B976B98 /* Pods-Cabrenee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabrenee.debug.xcconfig"; path = "Target Support Files/Pods-Cabrenee/Pods-Cabrenee.debug.xcconfig"; sourceTree = "<group>"; };
+		F23799CE256DCBFF0083B109 /* Cabrenee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cabrenee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23799D1256DCBFF0083B109 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F23799D3256DCBFF0083B109 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F23799D5256DCBFF0083B109 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F23799D8256DCBFF0083B109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23799DA256DCC020083B109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F23799DD256DCC020083B109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F23799DF256DCC020083B109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23799E4256DCC020083B109 /* CabreneeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabreneeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23799E8256DCC020083B109 /* CabreneeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabreneeTests.swift; sourceTree = "<group>"; };
+		F23799EA256DCC020083B109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23799EF256DCC020083B109 /* CabreneeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CabreneeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23799F3256DCC020083B109 /* CabreneeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabreneeUITests.swift; sourceTree = "<group>"; };
+		F23799F5256DCC020083B109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2379A04256DD3D50083B109 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8BD20CE2046D8C187001A4E /* Pods-Cabrenee-CabreneeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cabrenee-CabreneeUITests.release.xcconfig"; path = "Target Support Files/Pods-Cabrenee-CabreneeUITests/Pods-Cabrenee-CabreneeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23799CB256DCBFF0083B109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0D1AE192E1980890F75911 /* Pods_Cabrenee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799E1256DCC020083B109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E91B2F5D42FC163018F072F /* Pods_CabreneeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799EC256DCC020083B109 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D700F16E1B1A5F887839F7 /* Pods_Cabrenee_CabreneeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		244ED46BE926A2DD7753AB7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE11D39DD66A70281B976B98 /* Pods-Cabrenee.debug.xcconfig */,
+				6163D0DD581148F522D8F1A9 /* Pods-Cabrenee.release.xcconfig */,
+				07F27C646E8AC8F14876F264 /* Pods-Cabrenee-CabreneeUITests.debug.xcconfig */,
+				F8BD20CE2046D8C187001A4E /* Pods-Cabrenee-CabreneeUITests.release.xcconfig */,
+				49932A9F00EBEF8299BCB89E /* Pods-CabreneeTests.debug.xcconfig */,
+				40B60DA42D5A72EC04BF8558 /* Pods-CabreneeTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		48FC10A172E097BE4AF9EA5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5DED91C6E925C642DABEE900 /* Pods_Cabrenee.framework */,
+				07DFEC21A5F3A604C08FD6FC /* Pods_Cabrenee_CabreneeUITests.framework */,
+				D7783DB3ED9F0BC702D3C456 /* Pods_CabreneeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23799C5256DCBFF0083B109 = {
+			isa = PBXGroup;
+			children = (
+				F23799D0256DCBFF0083B109 /* Cabrenee */,
+				F23799E7256DCC020083B109 /* CabreneeTests */,
+				F23799F2256DCC020083B109 /* CabreneeUITests */,
+				F23799CF256DCBFF0083B109 /* Products */,
+				244ED46BE926A2DD7753AB7D /* Pods */,
+				48FC10A172E097BE4AF9EA5F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F23799CF256DCBFF0083B109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23799CE256DCBFF0083B109 /* Cabrenee.app */,
+				F23799E4256DCC020083B109 /* CabreneeTests.xctest */,
+				F23799EF256DCC020083B109 /* CabreneeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23799D0256DCBFF0083B109 /* Cabrenee */ = {
+			isa = PBXGroup;
+			children = (
+				F23799D1256DCBFF0083B109 /* AppDelegate.swift */,
+				F23799D3256DCBFF0083B109 /* SceneDelegate.swift */,
+				F23799D5256DCBFF0083B109 /* ViewController.swift */,
+				F23799D7256DCBFF0083B109 /* Main.storyboard */,
+				F23799DA256DCC020083B109 /* Assets.xcassets */,
+				F23799DC256DCC020083B109 /* LaunchScreen.storyboard */,
+				F23799DF256DCC020083B109 /* Info.plist */,
+				F2379A04256DD3D50083B109 /* GoogleService-Info.plist */,
+			);
+			path = Cabrenee;
+			sourceTree = "<group>";
+		};
+		F23799E7256DCC020083B109 /* CabreneeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23799E8256DCC020083B109 /* CabreneeTests.swift */,
+				F23799EA256DCC020083B109 /* Info.plist */,
+			);
+			path = CabreneeTests;
+			sourceTree = "<group>";
+		};
+		F23799F2256DCC020083B109 /* CabreneeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F23799F3256DCC020083B109 /* CabreneeUITests.swift */,
+				F23799F5256DCC020083B109 /* Info.plist */,
+			);
+			path = CabreneeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23799CD256DCBFF0083B109 /* Cabrenee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23799F8256DCC020083B109 /* Build configuration list for PBXNativeTarget "Cabrenee" */;
+			buildPhases = (
+				25445C20833B9C955233D9FA /* [CP] Check Pods Manifest.lock */,
+				F23799CA256DCBFF0083B109 /* Sources */,
+				F23799CB256DCBFF0083B109 /* Frameworks */,
+				F23799CC256DCBFF0083B109 /* Resources */,
+				0B88696793FC8B2BD645CFF2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cabrenee;
+			productName = Cabrenee;
+			productReference = F23799CE256DCBFF0083B109 /* Cabrenee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23799E3256DCC020083B109 /* CabreneeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23799FB256DCC020083B109 /* Build configuration list for PBXNativeTarget "CabreneeTests" */;
+			buildPhases = (
+				B6B0D5C45339228676C50F3B /* [CP] Check Pods Manifest.lock */,
+				F23799E0256DCC020083B109 /* Sources */,
+				F23799E1256DCC020083B109 /* Frameworks */,
+				F23799E2256DCC020083B109 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23799E6256DCC020083B109 /* PBXTargetDependency */,
+			);
+			name = CabreneeTests;
+			productName = CabreneeTests;
+			productReference = F23799E4256DCC020083B109 /* CabreneeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F23799EE256DCC020083B109 /* CabreneeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23799FE256DCC020083B109 /* Build configuration list for PBXNativeTarget "CabreneeUITests" */;
+			buildPhases = (
+				35F410C5661124696F2FE449 /* [CP] Check Pods Manifest.lock */,
+				F23799EB256DCC020083B109 /* Sources */,
+				F23799EC256DCC020083B109 /* Frameworks */,
+				F23799ED256DCC020083B109 /* Resources */,
+				BA1EFB738342053F78971F7D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23799F1256DCC020083B109 /* PBXTargetDependency */,
+			);
+			name = CabreneeUITests;
+			productName = CabreneeUITests;
+			productReference = F23799EF256DCC020083B109 /* CabreneeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23799C6256DCBFF0083B109 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F23799CD256DCBFF0083B109 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					F23799E3256DCC020083B109 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F23799CD256DCBFF0083B109;
+					};
+					F23799EE256DCC020083B109 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = F23799CD256DCBFF0083B109;
+					};
+				};
+			};
+			buildConfigurationList = F23799C9256DCBFF0083B109 /* Build configuration list for PBXProject "Cabrenee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23799C5256DCBFF0083B109;
+			productRefGroup = F23799CF256DCBFF0083B109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23799CD256DCBFF0083B109 /* Cabrenee */,
+				F23799E3256DCC020083B109 /* CabreneeTests */,
+				F23799EE256DCC020083B109 /* CabreneeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23799CC256DCBFF0083B109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23799DE256DCC020083B109 /* LaunchScreen.storyboard in Resources */,
+				F2379A05256DD3D50083B109 /* GoogleService-Info.plist in Resources */,
+				F23799DB256DCC020083B109 /* Assets.xcassets in Resources */,
+				F23799D9256DCBFF0083B109 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799E2256DCC020083B109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799ED256DCC020083B109 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B88696793FC8B2BD645CFF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabrenee/Pods-Cabrenee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabrenee/Pods-Cabrenee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cabrenee/Pods-Cabrenee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25445C20833B9C955233D9FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cabrenee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F410C5661124696F2FE449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cabrenee-CabreneeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B0D5C45339228676C50F3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CabreneeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1EFB738342053F78971F7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabrenee-CabreneeUITests/Pods-Cabrenee-CabreneeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Cabrenee-CabreneeUITests/Pods-Cabrenee-CabreneeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Cabrenee-CabreneeUITests/Pods-Cabrenee-CabreneeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23799CA256DCBFF0083B109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23799D6256DCBFF0083B109 /* ViewController.swift in Sources */,
+				F23799D2256DCBFF0083B109 /* AppDelegate.swift in Sources */,
+				F23799D4256DCBFF0083B109 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799E0256DCC020083B109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23799E9256DCC020083B109 /* CabreneeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23799EB256DCC020083B109 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23799F4256DCC020083B109 /* CabreneeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23799E6256DCC020083B109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23799CD256DCBFF0083B109 /* Cabrenee */;
+			targetProxy = F23799E5256DCC020083B109 /* PBXContainerItemProxy */;
+		};
+		F23799F1256DCC020083B109 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23799CD256DCBFF0083B109 /* Cabrenee */;
+			targetProxy = F23799F0256DCC020083B109 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23799D7256DCBFF0083B109 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23799D8256DCBFF0083B109 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F23799DC256DCC020083B109 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23799DD256DCC020083B109 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23799F6256DCC020083B109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F23799F7256DCC020083B109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23799F9256DCC020083B109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE11D39DD66A70281B976B98 /* Pods-Cabrenee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = Cabrenee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.Cabrenee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F23799FA256DCC020083B109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6163D0DD581148F522D8F1A9 /* Pods-Cabrenee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = Cabrenee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.Cabrenee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F23799FC256DCC020083B109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49932A9F00EBEF8299BCB89E /* Pods-CabreneeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = CabreneeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.CabreneeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabrenee.app/Cabrenee";
+			};
+			name = Debug;
+		};
+		F23799FD256DCC020083B109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B60DA42D5A72EC04BF8558 /* Pods-CabreneeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = CabreneeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.CabreneeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cabrenee.app/Cabrenee";
+			};
+			name = Release;
+		};
+		F23799FF256DCC020083B109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F27C646E8AC8F14876F264 /* Pods-Cabrenee-CabreneeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = CabreneeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.CabreneeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cabrenee;
+			};
+			name = Debug;
+		};
+		F2379A00256DCC020083B109 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BD20CE2046D8C187001A4E /* Pods-Cabrenee-CabreneeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6J64DNK6HX;
+				INFOPLIST_FILE = CabreneeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cs.CabreneeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cabrenee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23799C9256DCBFF0083B109 /* Build configuration list for PBXProject "Cabrenee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23799F6256DCC020083B109 /* Debug */,
+				F23799F7256DCC020083B109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23799F8256DCC020083B109 /* Build configuration list for PBXNativeTarget "Cabrenee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23799F9256DCC020083B109 /* Debug */,
+				F23799FA256DCC020083B109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23799FB256DCC020083B109 /* Build configuration list for PBXNativeTarget "CabreneeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23799FC256DCC020083B109 /* Debug */,
+				F23799FD256DCC020083B109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23799FE256DCC020083B109 /* Build configuration list for PBXNativeTarget "CabreneeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23799FF256DCC020083B109 /* Debug */,
+				F2379A00256DCC020083B109 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F23799C6256DCBFF0083B109 /* Project object */;
+}
